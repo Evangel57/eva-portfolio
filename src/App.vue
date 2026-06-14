@@ -7,7 +7,7 @@ const products = [
     description: 'Pomodoro timer with a growing tree. Stay focused, watch your tree bloom.',
     tags: ['Productivity', 'Pomodoro', 'PWA'],
     emoji: '🌳',
-    link: 'https://pomodoro-tree.vercel.app',
+    link: 'https://pomodoro-tree-cb9a.vercel.app/',
     color: '#22c55e',
   },
   {
