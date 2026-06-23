@@ -27,6 +27,14 @@ const products = [
     color: '#a855f7',
   },
   {
+    title: 'Nature Travel',
+    description: 'Travel agency landing page. Parallax hero, scroll animations, responsive nav, YooMoney payment integration.',
+    tags: ['Landing', 'Parallax', 'Animations'],
+    emoji: '🌿',
+    link: 'https://evangel57.github.io/n1/',
+    color: '#16a34a',
+  },
+  {
     title: 'Drafts',
     description: 'A writing app for those who think in drafts. Distraction-free, minimal, and built for writers.',
     tags: ['Writing', 'Notes', 'App'],
