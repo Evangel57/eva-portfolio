@@ -4,7 +4,7 @@ import ProductCard from './components/ProductCard.vue'
 const products = [
   {
     title: 'FocusTree',
-    description: 'Pomodoro timer with a growing tree. Stay focused, watch your tree bloom.',
+    description: 'Pomodoro timer with a growing pixel art tree. Stay focused, watch your tree bloom.',
     tags: ['Productivity', 'Pomodoro', 'PWA'],
     emoji: '🌳',
     link: 'https://pomodoro-tree-cb9a.vercel.app/',
@@ -17,6 +17,22 @@ const products = [
     emoji: '🔥',
     link: 'https://habit-tracker-tau-lake.vercel.app/',
     color: '#f97316',
+  },
+  {
+    title: 'Positivus',
+    description: 'Modern marketing agency landing page. Clean layout, bold typography, smooth sections.',
+    tags: ['Landing', 'UI/UX', 'HTML/CSS'],
+    emoji: '🚀',
+    link: 'https://evangel57.github.io/st-positivus/index.html',
+    color: '#a855f7',
+  },
+  {
+    title: 'Note App',
+    description: 'Minimalist notes app with markdown support, tags, and instant search.',
+    tags: ['Notes', 'Productivity', 'App'],
+    emoji: '📝',
+    link: 'https://evangel57.github.io/NoteApp/',
+    color: '#0ea5e9',
   },
 ]
 </script>
