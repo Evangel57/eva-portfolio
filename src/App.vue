@@ -21,7 +21,7 @@ const products = [
   {
     title: 'Positivus',
     description: 'Modern marketing agency landing page. Clean layout, bold typography, smooth sections.',
-    tags: ['Landing', 'UI/UX', 'HTML/CSS'],
+    tags: ['Landing', 'UI/UX', 'Payments'],
     emoji: '🚀',
     link: 'https://evangel57.github.io/st-positivus/index.html',
     color: '#a855f7',
