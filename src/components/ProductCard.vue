@@ -4,6 +4,7 @@ defineProps({
   description: String,
   tags: Array,
   emoji: String,
+  image: String,
   link: String,
   color: { type: String, default: '#f97316' },
 })
@@ -11,9 +12,10 @@ defineProps({
 
 <template>
   <a :href="link" target="_blank" rel="noopener" class="card">
-    <div class="card-preview" :style="{ '--card-color': color }">
-      <span class="card-emoji">{{ emoji }}</span>
-      <div class="card-glow" />
+    <div class="card-preview" :class="{ 'card-preview--image': image }" :style="{ '--card-color': color }">
+      <img v-if="image" :src="image" :alt="title" class="card-image" />
+      <span v-else class="card-emoji">{{ emoji }}</span>
+      <div v-if="!image" class="card-glow" />
     </div>
     <div class="card-body">
       <div class="card-top">
@@ -59,6 +61,17 @@ defineProps({
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+
+.card-preview--image {
+  height: 220px;
+  background: var(--bg3);
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .card-emoji {
